@@ -55,7 +55,7 @@ background-color: #AB6D23;
     margin-left: -100px;
 }
 
-.heroImage{
+.heroImage{ 
     
     margin-bottom: 20px;
     margin-right: 30px;
@@ -111,6 +111,23 @@ a:hover{
     
 }
 
+.testomonialSection{
+    background-color: #F78812;
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonialHeadContainer{
+    margin-top: 30px;
+}
+.testimonialHeader{
+    color:white;
+    font-size: 36px;
+    font-weight: bolder;
+    
+    text-align: center;
+}
+
 .quote-section{
     background-color: #E02401;
     width: 100%;
@@ -123,6 +140,59 @@ a:hover{
     height: 550px;
 }
 
+.custImg{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius:10px;
+    border-color: #51050F;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.customerPhotos{
+    display:flex;
+    width: 50%;
+    justify-content: space-between;
+    margin-left: 450px;
+    margin-top:10px;    
+}
+
+.testimonialText{
+  display: flex;
+  line-height: .9;
+  width:fit-content;
+  width: 900px;  
+  padding-left: 460px;
+  margin-top: 10px;
+  font-size:14px;
+    
+}
+
+
+/*.testimonialText{
+    display: flex;
+    line-height: 1;
+    width: 50%;
+    font-weight:600;
+    padding-left:479px;
+    margin-top:10px;
+    justify-content: space-evenly;
+    font-size: 14px;
+    text-align: center;
+}
+*/
+
+
+
+
+.testimony{
+    margin: 0px 0px 0px 20px;
+    text-align: center;
+    color: white;
+   
+}
+
 
 .burgericon{
     
@@ -131,11 +201,17 @@ a:hover{
     margin-left: 300px;
     margin-top: 20px;
 }
-
-.testimony1,
-.testimony2,
-.testimony3,
-.testimony4{
-    height: 60px;
-    width: auto ;
+/*
+#testimony1.testimony{
+    
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        padding: 0 10px 10px 0;
+      
+    
+}
+*/
+.burgalign{
+    
 }

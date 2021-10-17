@@ -159,14 +159,16 @@ a:hover{
 }
 
 .testimonialText{
-  display: flex;
-  line-height: .9;
-  width:fit-content;
-  width: 900px;  
-  padding-left: 460px;
-  margin-top: 10px;
-  font-size:14px;
-    
+    display: flex;
+    line-height: .9;
+    width: 50%;
+    width: 900px;
+    padding-left: 477px;
+    margin-top: 10px;
+    font-size: 14px;
+
+    align-content: space-evenly;
+    gap: 89px;
 }
 
 
@@ -187,7 +189,7 @@ a:hover{
 
 
 .testimony{
-    margin: 0px 0px 0px 20px;
+    margin: 0px 0px 0px 0px;
     text-align: center;
     color: white;
    
@@ -201,17 +203,24 @@ a:hover{
     margin-left: 300px;
     margin-top: 20px;
 }
-/*
-#testimony1.testimony{
-    
-        display: flex;
-        flex: 1;
-        flex-direction: column;
-        padding: 0 10px 10px 0;
-      
+
+
+#testimony1,
+#testimony2,
+#testimony3,
+#testimony4{
+    display: flex;
+    width: 210px;
+;
     
 }
-*/
-.burgalign{
+
+#bodysection.quoteSection{
+    display: flex;
+}
+#mainQuote,
+#squotedPerson{
+    font-size: 66px;
     
+
 }

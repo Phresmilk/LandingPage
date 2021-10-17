@@ -215,12 +215,87 @@ a:hover{
     
 }
 
-#bodysection.quoteSection{
-    display: flex;
-}
-#mainQuote,
-#squotedPerson{
-    font-size: 66px;
-    
 
+
+
+.quoteSection{
+    background-color: #E02401;
+
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}        
+
+.mainQuote{
+    font-size: 32px;
+
+    width: 50%;
+    height: min-content;
+    line-height: .8;
+    margin-top: 70px;
+    margin-left: 438px;
+    font-style: italic;
+    color: white;
+}
+/*{
+    font-size: 24px;
+    border: solid black 2px;
+    margin-top: 300px;
+    margin-right: 90px;
+}
+*/
+.quotedPerson{
+    margin-left: 1058px;
+margin-top: 16px;
+font-size: 24px;
+font-weight: bold;
+color: white;
+
+}
+
+.footer{
+    background-color: #AB6D23;
+    border-radius: 29px;
+    width: 50%;
+    margin-left: 442px;
+    margin-top: 68px;
+    margin-bottom: 88px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-around;}
+
+.wunderButton{
+    background: #F78812;
+    text-decoration: none;
+    font-weight: 300;
+    border-radius: 2em;
+    color: white;
+    text-shadow: 0 0.04em 0.04em rgba(0,0,0,0.35);
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+    text-align: center;
+    padding: 0.3em 1.2em;
+    border: 0.16em solid rgba(255,255,255,0);
+    margin-top: -36px;
+    margin-left: 795px;
+    width: 106px;}
+
+.footerText{
+    margin: 2px 2px 2px 12px; 
+}
+
+#footerMain{
+    color: white;
+    font-weight: bold;
+}
+
+#footerCatch{
+    color:white;
+    font-style: italic;
+}
+
+body{
+    background-color: #F78812;
 }
